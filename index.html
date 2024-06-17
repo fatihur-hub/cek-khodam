@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplikasi Kata Acak</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+</head>
+<body>
+    <div class="d-flex align-items-center text-center">
+
+        <div class="container">
+            <img src="https://stickers.vidio.com/packs/731-mbahdukun/mbahdukun03.png" style="height: 200px;" alt="">
+            <h1>Cek Khodam</h1>
+            <label for="name">Masukkan Nama:</label>
+            <input type="text" id="name" placeholder="Nama Anda">
+            <button id="cekButton" onclick="generateRandomWord()" disabled>Cek</button>
+            <div id="loading" class="loading">
+                <div class="spinner"></div>
+                <p>Sedang mengecek khodam...</p>
+            </div>
+            <div class="footer text-center">
+                <p class="text-center">made with ❤️ by fatih</p>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
